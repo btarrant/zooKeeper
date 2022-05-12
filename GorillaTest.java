@@ -2,9 +2,9 @@ class GorillaTest {
     public static void main(String[] args) {
         
         Mammal mam = new Mammal();
-        Gorilla ape = new Gorilla();
+        Gorilla gorilla = new Gorilla(100);
 
-        System.out.println("Energy Level -> " + mam.displayEnergy());
+        System.out.println(ape);
 
     }
 }
