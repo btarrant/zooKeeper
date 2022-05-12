@@ -4,5 +4,7 @@ class GorillaTest {
         Mammal mam = new Mammal();
         Gorilla ape = new Gorilla();
 
+        System.out.println("Energy Level -> " + mam.displayEnergy());
+
     }
 }
